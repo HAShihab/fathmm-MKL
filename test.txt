@@ -1,0 +1,8 @@
+# Note: records beginning with a '#' are not processed (comments)
+#
+# The software expects data to be in the following format (comma-separated): chromosome, position, reference and mutant base
+#
+1,916549,A,G
+1,935222,C,A
+1,11854785,C,T
+1,11854786,C,T
