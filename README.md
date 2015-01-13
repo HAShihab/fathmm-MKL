@@ -38,6 +38,15 @@ In the above command, ```<fin>``` is the list of mutations to process (see ```te
 
 **Note:** the database index file must be created before running our script.  If this has not been created, your output will contain "No Prediction Found" for all variants!
 
+## Prediction Interpretation
+
+Predictions are given as *p*-values in the range [0, 1]: values above 0.5 are predicted to be deleterious, while those below 0.5 are predicted to be neutral or benign. *P*-values close to the extremes (0 or 1) are the highest-confidence predictions that yield the highest accuracy.
+
+We use distinct predictors for positions either in coding regions (positions within coding-sequence exons) and non-coding regions (positions in intergenic regions, introns or non-coding genes). The coding predictor is based on 10 groups of features, labeled A-J; the non-coding predictor uses a subset of 4 of these feature groups, A-D (see our related publication for details on the groups and their sources).
+
+**Note:** predictions based on a subset of features may not be as accurate as those based on complete feature sets. In particular, predictions that are missing the conservation score features (groups A and E) will tend to be less accurate than other predictions. To aid in interpreting these predictions, we provide a list of the feature groups that contributed to each prediction. 
+
+
 ## Contributing:
 
 We welcome any comments and/or suggestions that you may have regarding our software - please send an email to fathmm@biocompute.org.uk
