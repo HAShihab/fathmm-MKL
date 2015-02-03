@@ -15,6 +15,13 @@ You will need the following packages installed on your system:
 
 ## Running the Software
 
+* Clone this repository
+
+```
+git clone https://github.com/HAShihab/fathmm-MKL
+cd fathmm-MKL/
+```
+
 * Download our pre-computed database:
 
 ```
