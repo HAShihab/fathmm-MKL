@@ -55,6 +55,9 @@ We use distinct predictors for positions either in coding regions (positions wit
 
 **Note:** predictions based on a subset of features may not be as accurate as those based on complete feature sets. In particular, predictions that are missing the conservation score features (groups A and E) will tend to be less accurate than other predictions. To aid in interpreting these predictions, we provide a list of the feature groups that contributed to each prediction. 
 
+## Genome Build
+
+FATHMM-MKL predictions are based on GRCh37/hg19 genome build.
 
 ## Contributing:
 
