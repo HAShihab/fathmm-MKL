@@ -57,7 +57,7 @@ We use distinct predictors for positions either in coding regions (positions wit
 
 ## Genome Build
 
-FATHMM-MKL predictions are based on GRCh37/hg19 genome build.
+FATHMM-MKL predictions are based on the GRCh37/hg19 genome build.
 
 ## Contributing:
 
