@@ -30,6 +30,11 @@ wget http://fathmm.biocompute.org.uk/database/fathmm-MKL_Current.tab.gz
 
 **Note:** this database contains one-based coordinates (positions).  For true bed format (i.e. zero-based coordinates), please download the following database: http://fathmm.biocompute.org.uk/database/fathmm-MKL_Current_zerobased.tab.gz
 
+| Datafile | md5sum |
+| -------- | ------- |
+| http://fathmm.biocompute.org.uk/database/fathmm-MKL_Current.tab.gz | b8f4dd120586a34c82d5cc87cfe2a4ca |
+| http://fathmm.biocompute.org.uk/database/fathmm-MKL_Current_zerobased.tab.gz |  c3213196a2471ade3742bd8f8a96d4cc |
+
 * Add `tabix` to your PATH and create the database index file (*please be patient, this may take a while!*):
 
 ```
