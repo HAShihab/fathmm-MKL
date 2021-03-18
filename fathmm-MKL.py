@@ -87,7 +87,7 @@ if __name__ == '__main__':
         if err:
             Pred[-1] = "Error: 'tabix' command"; continue
         if data:
-            for record in data.split("\n"):
+            for record in data.decode().split("\n"):
                 if not record:
                     continue
                 record = record.strip().split("\t")
